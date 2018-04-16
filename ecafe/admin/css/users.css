@@ -1,0 +1,91 @@
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+   background-color: #b2dbef;
+}
+.parent {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+.child {
+    width: 100%;
+    min-height: 700px;
+    background-color: rgba(208, 222, 245);
+    box-shadow: 0px 12px 12px 4px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    padding-bottom: 10%;
+}
+
+.card-main-heading {
+    font-family: sans-serif;
+    font-size: 4vw;
+    text-align: center;
+    color: #32496f;
+    line-height: 1;
+    padding-top: 25px;
+    margin: 0;
+    padding-bottom: 2;
+}
+
+
+.table-container {
+    margin-top: 50px;
+    height: 600px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+table {
+
+    border-radius: 5px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr td {
+    font-family: sans-serif;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    height: 40px;
+    padding: 8px;
+    font-size: 15px;
+    line-height: 1.4;
+    color: dimgray;
+}
+
+table th {
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 600;
+    background-color: #6c7ae0;
+    padding: 8px;
+    height: 60px;
+    border-bottom: 1px solid #32496f;
+}
+
+tr:nth-child(odd):hover {
+    background-color: #6c7ae0;
+}
+
+tr:nth-child(even):hover {
+    background-color: #6c7ae0;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f6ff;
+}
+
+button {
+    outline: none !important;
+    border: none;
+    background: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}

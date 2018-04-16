@@ -1,0 +1,188 @@
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #b2dbef;
+    background-image: url('./../../images/rest5.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.menu-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu-main-heading {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 50%;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 120px;
+}
+
+.menu-title {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: cursive;
+    font-size: 5vw;
+    letter-spacing: .01vw;
+
+}
+
+.menu-card-container {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 25%;
+    margin-bottom: 10%;
+}
+
+.menu-card-main-heading {
+    font-family: sans-serif;
+    font-size: 4vw;
+    text-align: center;
+    color: #32496f;
+    line-height: 1;
+    padding-top: 25px;
+    margin: 0;
+    padding-bottom: 2;
+
+}
+
+.menu-card {
+    width: 100%;
+    background-color: #d0dde3;
+    min-height: 1200px;
+    box-shadow: 0px 12px 12px 4px rgba(0, 0, 0, 0.2);
+}
+
+.menu-card-info {
+    margin: 0;
+    padding: 8;
+    font-family: sans-serif;
+    font-size: 1vw;
+    line-height: .2;
+    text-align: center;
+    color: #32496f;
+}
+
+.menu-card-last-info {
+    margin: 0;
+    padding: 12;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #32496f;
+}
+
+.menu-card-image {
+    margin: auto;
+    width: 60%;
+    height: 400px;
+    background-image: url('./../images/starter.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2px;
+    box-shadow: 0px 12px 12px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 1s;
+}
+
+.menu-card-image:hover {
+    transform: scale(1.1);
+}
+
+.menu-table-title {
+    font-size: 1.5vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #32496f;
+}
+
+.menu-table-div {
+    margin: auto;
+    height: auto;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.menu-name {
+    padding: 0;
+    line-height: 0;
+    font-family: sans-serif;
+    font-size: 2vw;
+    color: #32496f;
+}
+
+.just-menu {
+    margin: 0;
+    width: 100%;
+    min-height: 40px;
+    height: auto;
+}
+
+.menu-info {
+    color: #7d7f87;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 1.1vw;
+    line-height: 1.4vw;
+}
+
+.just-menu-info-div {
+    width: 100%;
+}
+
+.price {
+    font-family: cursive;
+    color: #32496f;
+    float: right;
+    padding-right: 5px;
+    font-size: 2vw;
+    line-height: 0;
+}
+
+.parent {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.child {
+    width: 100%;
+    min-height: 700px;
+    background-color: rgba(208, 222, 245);
+    box-shadow: 0px 12px 12px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-main-heading {
+    font-family: sans-serif;
+    font-size: 4vw;
+    text-align: center;
+    color: #32496f;
+    line-height: 1;
+    padding-top: 25px;
+    margin: 0;
+    padding-bottom: 2;
+}
+
+.site-name-div {
+    float: left;
+    width: 20%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.site-name {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: cursive;
+    font-size: 4vw;
+}

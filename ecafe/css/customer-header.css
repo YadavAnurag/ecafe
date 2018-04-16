@@ -1,0 +1,95 @@
+.navbar {
+    overflow: hidden;
+    font-family: Arial;
+    width: 100%;
+    padding: 0px;
+    margin-left: 0%;
+    margin-top: 5%;
+
+}
+
+.navbar a {
+    float: left;
+    font-family: sans-serif;
+    font-size: 1.3vw;
+    letter-spacing: .005vw;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    font-size: 1.3vw;
+    letter-spacing: .005vw;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #6c7ae0;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #6c7ae0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.home-menu-title {
+    margin: 0;
+    padding: 4px;
+    font-size: 2vw;
+    font-family: sans-serif;
+    text-align: center;
+    color: #32496f;
+}
+
+.site-name-div {
+    float: left;
+    width: 15%;
+    margin: auto;
+    margin-left: 10%;
+    box-sizing: border-box;
+}
+
+.site-name {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: cursive;
+    font-size: 4vw;
+}

@@ -1,0 +1,113 @@
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #b2dbef;
+    background-image: url('./../../images/feedback.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.parent {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 25%;
+    margin-bottom: 20%;
+}
+
+.child {
+    width: 100%;
+    min-height: 700px;
+    background-color: #d0dde3;
+    box-shadow: 0px 12px 12px 4px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    padding-bottom: 30px;
+}
+
+.card-main-heading {
+    font-family: sans-serif;
+    font-size: 4vw;
+    text-align: center;
+    color: #32496f;
+    line-height: 1;
+    padding-top: 25px;
+    padding-bottom: 2;
+    margin-top: -140px;
+}
+
+.table-container {
+    margin-top: 50px;
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+table {
+
+    border-radius: 5px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr td {
+    font-family: sans-serif;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    height: 40px;
+    padding: 8px;
+    font-size: 15px;
+    line-height: 1.4;
+    color: dimgray;
+}
+
+table th {
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 600;
+    background-color: #6c7ae0;
+    padding: 8px;
+    height: 60px;
+    border-bottom: 1px solid #32496f;
+}
+
+tr:nth-child(odd):hover {
+    background-color: #6c7ae0;
+}
+
+tr:nth-child(even):hover {
+    background-color: #6c7ae0;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f6ff;
+}
+
+button {
+    outline: none !important;
+    border: none;
+    background: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.menu-main-heading {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 50%;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 120px;
+}
+
+.menu-title {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: cursive;
+    font-size: 5vw;
+    letter-spacing: .01vw;
+}

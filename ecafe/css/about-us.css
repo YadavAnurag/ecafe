@@ -1,0 +1,163 @@
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #b2dbef;
+    background-image: url('./../images/about.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.teem-column {
+    float: left;
+    width: 300px;
+    margin-left: 6%;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.card {
+    box-sizing: border-box;
+    box-shadow: 6px 12px 15px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+@media (max-width: 650px) {}
+
+.card-name {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #32496f;
+}
+
+.card-title {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: darkgray;
+    font-weight: 600;
+}
+
+.some-text {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #32496f;
+}
+
+.card-email {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #32496f;
+}
+
+.contact-button {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    background-color: rgba(90, 8, 185, 0.78);
+    width: 100%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.text-container {
+    width: 80%;
+    min-height: 200px;
+    margin-left: 33px;
+}
+
+
+.about-main-container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 20%;
+}
+
+
+
+.teem-row {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #b2dbef;
+    min-height: 1000px;
+    height: auto;
+    margin-top: 25%;
+    box-shadow: 0px 12px 12px 4px rgba(0, 0, 0, 0.2);
+}
+
+.about-card-last-info {
+    margin: 0;
+    padding: 12;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #32496f;
+    padding-bottom: 80px;
+}
+
+.about-card-main-heading {
+    font-family: sans-serif;
+    font-size: 4vw;
+    text-align: center;
+    color: #32496f;
+    line-height: 1;
+    padding-top: 25px;
+    margin: 0;
+    padding-bottom: 2;
+
+}
+
+.about-card-info {
+    margin: 0;
+    padding: 8;
+    font-family: sans-serif;
+    font-size: 1vw;
+    line-height: .2;
+    text-align: center;
+    color: #32496f;
+}
+
+.image-div {
+    background-image: url('./../../images/profile.jpeg');
+    box-sizing: border-box;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 12px;
+    width: 90%;
+    height: 42%;
+    margin: 0 auto;
+    border-radius: 6px;
+    transition: transform 1s;
+}
+
+.image-div:hover {
+
+    transform: scale(1.1);
+}
+
+.about-main-heading {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 50%;
+    margin: auto;
+    margin-top: 120px;
+    box-sizing: border-box;
+}
+
+.about-title {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: cursive;
+    font-size: 5vw;
+    letter-spacing: .01vw;
+}
